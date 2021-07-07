@@ -1,0 +1,34 @@
+#header{
+    /* width: 1310px;
+    max-width: 90%; */
+    /* height: 80px; */
+    background-color:cornflowerblue;
+}
+
+body{
+    background-repeat: no-repeat;              
+    background-image: url("Tiny-Horse-Marketing-Agency-Contact.jpg"); 
+    background-attachment: scroll;
+    background-position: center center;
+    /* background-color: cadetblue; */
+}
+
+#gradientBar{
+    width:fit-content;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+}
+#locations{
+    background-color: #f4eae9;
+}
+
+#form01{
+    background-color: white;
+}
+
+#bottomPage{
+    background-color: #212326;
+    color: white;
+}

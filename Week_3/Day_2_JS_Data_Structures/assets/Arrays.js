@@ -116,3 +116,9 @@ console.log(course);
 course.fun = true; //add a property
 delete course.name; //remove one
 console.log(course);
+
+
+let myArray = [];
+myArray.push("newString");
+myArray.push(123);
+console.log(myArray);
