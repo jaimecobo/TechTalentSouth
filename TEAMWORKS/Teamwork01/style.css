@@ -1,34 +1,833 @@
-#header{
-    /* width: 1310px;
-    max-width: 90%; */
-    /* height: 80px; */
-    background-color:cornflowerblue;
-}
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-body{
+/* #header{
+    width: 1310px;
+    max-width: 90%; 
+    height: 80px;
+    background-color:cornflowerblue;
+    margin:0;
+} */
+
+/* body{
     background-repeat: no-repeat;              
     background-image: url("Tiny-Horse-Marketing-Agency-Contact.jpg"); 
     background-attachment: scroll;
+    background-position: center;
+    margin:0;
+    width: 1920px;
+    
+} */
+
+ul {
+    list-style-type: none;
+  }
+
+#transparent_block{
+    /* background:transparent; */
+    height: 100px
+    /* margin: 0;
+    padding: 0; */
+}
+
+#main_img{
+    /* width:fit-content; */
+    width: 1900px;
+    height: 1040px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     background-position: center center;
-    /* background-color: cadetblue; */
+}
+
+#ul_navbar_options{
+    margin-right: 320px;
+}
+
+.anchor_navbar{
+    font-family: 'Poppins', sans-serif;
+    color: white !important;
+    font-size: 16px;
+}
+#ul_locations{
+    margin-left: 345px;
+}
+
+#locations_title{
+    font-size: 16px;
+    padding-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#cities_location_00{
+    font-size: 34px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+#cities_location_01{
+    margin-left: 245px;
+    font-size: 34px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+#cities_location_02{
+    margin-left: 285px;
+    font-size: 34px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: 'Playfair Display', serif;
 }
 
 #gradientBar{
-    width:fit-content;
-    height: 45px;
+    /* width:fit-content; */
+    width:1900px;
+    height: 50px;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
 }
 #locations{
-    background-color: #f4eae9;
+    width: 1900px;
+    height: 250px;
+    background: #f4eae9;
 }
 
-#form01{
+
+#formDiv{
     background-color: white;
+    width: 1900px;
+    height: 750px;
 }
+
+#formTitle{
+    margin-left: 345px;
+    padding-top: 90px;
+}
+
+#spanTitle{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+#input_text{
+    border-color: transparent;
+    background: #e1e1e1;
+    width: 396px;
+    height: 50px;
+}
+
+textarea {
+    border-color: transparent;
+    background: #e1e1e1;
+    width: 1210px;
+    height: 200px;
+}
+
+#formButton{
+border-color: #212326;
+border-width: thin;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 1px;
+font-size: 14px;
+background: transparent;
+margin-left: 345px;;
+margin-top: 30px;
+width: 250px;
+height: 50px;
+margin-bottom: 50px;
+}
+
+#ul_form{
+margin-left: 345px;;
+}
+#ul_li_label_form{
+margin-top: 50px;
+font-size: 14px;
+font-family: 'Poppins', sans-serif;
+}
+
+#ul_li_label_form_01{
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 320px;
+    }
+
+#ul_li_text_area_title{
+font-size: 14px;
+font-family: 'Poppins', sans-serif;
+margin-top: 25px;
+}
+
+
 
 #bottomPage{
+    
     background-color: #212326;
     color: white;
+    width: 1900px;
+    height: 400px;
+}
+
+#ul_botton_page_00{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+#ul_botton_page_01{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+#ul_botton_page_02{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+
+#logo {
+    height: 100px;
+    width: 200px;
+    margin-left: 320px;;
+}
+
+#footer_logo{
+    height: 100px;
+    width: 200px;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: -1em;
+}
+
+#teamWhistleLogo{
+    height: 40px;
+    width: 200px;
+    margin-left: 120px;
+    margin-top: -1em;
+
+}
+
+.bg-light{
+    background: transparent !important;
+    width:1900px;
+}
+
+.bg-light.scrolled{
+    background: #212326 !important;
+    transition: 1s ease;
+}
+
+#logo.scrolled{
+    height: 50px;
+    width: 100px;
+    transition: 0.5s ease;
+}
+
+#Are_you_re{
+    /* font-family: 'Playfair Display', serif;
+    background-color:transparent; */
+    color:transparent;
+    /* color: #f4eae9; */
+    /* font-size: 36px;
+    margin-left: 230px; */
+    /* height: 800px; */
+    /* padding-top: 200px; */
+}
+/* #Are_you_re div{
+    color: transparent;
+
+} */
+
+#Are_you_re h1{
+    font-family: 'Playfair Display', serif;
+    background:transparent;
+    color: #f4eae9;
+    font-size: 60px;
+    margin-left: 345px;
+    margin-top: 320px;
+    /* margin-bottom: 100px; */
+    margin-bottom: 380px;
+    /* height: 400px; */
+    /* padding-top: 100px; */
+}
+
+.copyright{
+    margin-top: 40px;
+    margin-left: 40px;
+    color:cadetblue;
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    align-self: flex-end; 
+}
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 1700px) {
+    #main_img{
+        /* width:fit-content; */
+        width: 1700px;
+        /* height: 1144px; */
+    }
+    
+    #gradientBar{
+        /* width:fit-content; */
+        width:1700px;
+        height: 50px;
+    }
+        
+    #locations{
+        width: 1700px;
+        height: 250px;
+           
+    }
+    
+    #formDiv{
+        width: 1700px;
+        height: 750px;
+    }
+    
+    #bottomPage{
+        width: 1700px;
+        height: 400px;
+    }
+    
+    .bg-light{
+        width:1700px;
+    }
+
+    
+
+    /* //////////////////////////////////////// */
+
+    #logo {
+        margin-left: 220px;
+    }
+    #ul_navbar_options{
+        margin-right: 220px;
+    }
+
+    #ul_locations{
+        margin-left: 245px;
+        }
+        
+        #formTitle{
+        margin-left: 245px;
+        }
+        
+        #formButton{
+        margin-left: 245px;;
+        }
+        
+        #ul_form{
+        margin-left: 245px;;
+        }
+
+        #ul_botton_page_00{
+            margin-left: 100px;
+        }
+        
+        /* #ul_botton_page_01{
+            margin-left: 200px;
+            margin-top: 40px;
+        }
+        
+        #ul_botton_page_02{
+            margin-left: 200px;
+            margin-top: 40px;
+        } */
+          
+        #Are_you_re h1{
+            font-size: 60px;
+            margin-left: 245px;
+            margin-top: 320px;
+            margin-bottom: 380px;
+        }
+
+        #cities_location_01{
+            margin-left: 195px;
+            
+        }
+        
+        #cities_location_02{
+            margin-left: 235px;
+            
+        }
+    
+}
+
+@media only screen and (max-width : 1500px) {
+
+    #main_img{
+        /* width:fit-content; */
+        width: 1500px;
+        /* height: 1260px; */
+
+    }
+    
+    #gradientBar{
+        /* width:fit-content; */
+        width:1500px;
+        height: 50px;
+    }
+        
+    #locations{
+        width: 1500px;
+        height: 250px;
+    }
+    
+    #formDiv{
+        width: 1500px;
+        height: 750px;
+    }
+    
+    #bottomPage{
+        width: 1500px;
+        height: 400px;
+    }
+    
+    .bg-light{
+        width:1500px;
+    }
+
+
+    /* //////////////////////////////////////// */
+
+    #logo {
+        margin-left: 120px;
+    }
+
+    #ul_navbar_options{
+        margin-right: 120px;
+    }
+
+    #ul_locations{
+        margin-left: 145px;
+        }
+        
+        #formTitle{
+        margin-left: 145px;
+        }
+        
+        #formButton{
+        margin-left: 145px;;
+        }
+        
+        #ul_form{
+        margin-left: 145px;;
+        }
+
+        #ul_botton_page_00{
+            margin-left: 0px;
+        }
+        
+        #Are_you_re h1{
+            font-size: 60px;
+            margin-left: 145px;
+            margin-top: 320px;
+            margin-bottom: 380px;
+        }
+
+        #cities_location_01{
+            margin-left: 145px;
+            
+        }
+        
+        #cities_location_02{
+            margin-left: 185px;
+            
+        }
+        
+        
+}
+
+@media only screen and (max-width : 1300px) {
+
+    
+    #main_img{
+        /* width:fit-content; */
+        width: 1300px;
+        /* height: 1370px; */
+    }
+    
+    #gradientBar{
+        /* width:fit-content; */
+        width:1300px;
+        height: 50px;
+    }
+        
+    #locations{
+        width: 1300px;
+        height: 250px;
+    }
+    
+    #formDiv{
+        width: 1300px;
+        height: 750px;
+    }
+    
+    #bottomPage{
+        width: 1300px;
+        height: 400px;
+    }
+    
+    .bg-light{
+        width:1300px;
+    }
+
+
+
+    /* //////////////////////////////////////// */
+
+    #logo {
+        margin-left: 20px;
+    }
+
+    #ul_navbar_options{
+        margin-right: 20px;
+    }
+
+    #ul_locations{
+        margin-left: 45px;
+        }
+        
+        #formTitle{
+        margin-left: 45px;
+        }
+        
+        #formButton{
+        margin-left: 45px;;
+        }
+        
+        #ul_form{
+        margin-left: 45px;;
+        }
+
+        #ul_botton_page_00{
+            margin-left: -100px;
+        }
+        
+        #ul_botton_page_01{
+            margin-left: 100px;
+        }
+        
+        #ul_botton_page_02{
+            margin-left: 100px;
+        }
+        
+        
+        #Are_you_re h1{
+            font-size: 60px;
+            margin-left: 45px;
+            margin-top: 320px;
+            margin-bottom: 380px;
+        }
+
+        #cities_location_01{
+            margin-left: 95px;
+            
+        }
+        
+        #cities_location_02{
+            margin-left: 135px;
+            
+        }
+       
+}
+    
+
+@media only screen and (max-width : 1100px) {
+
+    
+    #main_img{
+        /* width:fit-content; */
+        width: 1100px;
+        /* height: 600px; */
+    }
+    
+    #gradientBar{
+        /* width:fit-content; */
+        width:1100px;
+        height: 50px;
+    }
+        
+    #locations{
+        width: 1100px;
+        height: 250px;
+    }
+    
+    #formDiv{
+        width: 1100px;
+        height: 750px;
+    }
+    
+    #bottomPage{
+        width: 1100px;
+        height: 400px;
+    }
+    
+    .bg-light{
+        width:1100px;
+    }
+
+    #ul_li_label_form_01{
+        margin-left: 240px;
+        }
+
+    #input_text{
+        width: 313px;
+    }
+
+    textarea {
+        width: 960px;
+    }
+
+    /* //////////////////////////////////////// */
+
+    #ul_locations{
+        margin-left: 45px;
+        }
+        
+        #formTitle{
+        margin-left: 45px;
+        }
+        
+        #formButton{
+        margin-left: 45px;;
+        }
+        
+        #ul_form{
+        margin-left: 45px;;
+        }
+        
+        
+        #ul_botton_page_01{
+            margin-left: 80px;
+        }
+        
+        #ul_botton_page_02{
+            margin-left: 80px;
+        }
+        
+        
+        #Are_you_re h1{
+            font-size: 60px;
+            margin-left: 45px;
+            margin-top: 320px;
+            margin-bottom: 380px;
+        }
+
+        #cities_location_01{
+            margin-left: 95px;
+            
+        }
+        
+        #cities_location_02{
+            margin-left: 135px;
+            
+        }
+
+    
+}
+@media only screen and (max-width : 900px) {
+
+    
+    #main_img{
+        /* width:fit-content; */
+        width: 900px;
+        height: 1120px;
+    }
+    
+    #gradientBar{
+        /* width:fit-content; */
+        width: 900px;
+        height: 50px;
+    }
+        
+    #locations{
+        width: 900px;
+        height: 250px;
+    }
+    
+    #formDiv{
+        width: 900px;
+        height: 750px;
+    }
+    
+    #bottomPage{
+        width: 900px;
+        height: 400px;
+    }
+    
+    .bg-light{
+        width: 900px;
+    }
+
+    #ul_li_label_form_01{
+        margin-left: 190px;
+        }
+
+    #input_text{
+        width: 266px;
+    }
+
+    textarea {
+        width: 820px;
+    }
+
+    /* //////////////////////////////////////// */
+
+    #ul_locations{
+        margin-left: 45px;
+        }
+        
+        #formTitle{
+        margin-left: 45px;
+        }
+        
+        #formButton{
+        margin-left: 45px;;
+        }
+        
+        #ul_form{
+        margin-left: 45px;;
+        }
+        
+        #ul_botton_page_01{
+            margin-left: -10px;
+        }
+        
+        #ul_botton_page_02{
+            margin-left: -10px;
+        }
+        
+        
+        #Are_you_re h1{
+            font-size: 60px;
+            margin-left: 45px;
+            margin-top: 320px;
+            margin-bottom: 380px;
+        }
+
+        #cities_location_01{
+            margin-left: 95px;
+            
+        }
+        
+        #cities_location_02{
+            margin-left: 135px;
+            
+        }
+    
+}
+
+@media only screen and (max-width : 700px) {
+    
+    #main_img{
+        /* width:fit-content; */
+        width: 700px;
+        height: 1120px;
+    }
+    
+    #gradientBar{
+        /* width:fit-content; */
+        width: 700px;
+        height: 50px;
+    }
+        
+    #locations{
+        width: 700px;
+        height: 400px;
+    }
+    
+    #formDiv{
+        width: 700px;
+        height: 750px;
+    }
+    
+    #bottomPage{
+        width: 700px;
+        height: 800px;
+    }
+    
+    .bg-light{
+        width: 700px;
+    }
+
+    #ul_li_label_form_01{
+        margin-left: 110px;
+        }
+
+    #input_text{
+        width: 183px;
+    }
+
+    textarea {
+        width: 570px;
+    }
+
+    .flex-container{
+        /* this allows the container to be flex*/
+        display:inline-block;
+        /* display: flex; */
+        /* display: block; */
+        flex-wrap: wrap;
+    }
+
+    #cities_location_01{
+        margin-left: 0px;
+        margin-top: -20px;
+        /* padding-top: 20px;
+        padding-bottom: 50px; */
+    }
+    
+    #cities_location_02{
+        margin-left: 0px;
+        margin-top: -20px;   
+    }
+
+
+    /* //////////////////////////////////////// */
+
+    #ul_locations{
+        margin-left: 45px;
+        }
+        
+        #formTitle{
+        margin-left: 45px;
+        }
+        
+        #formButton{
+        margin-left: 45px;;
+        }
+        
+        #ul_form{
+        margin-left: 45px;;
+        }
+        
+        #ul_botton_page_01{
+            margin-left: 20px;
+            margin-top: -10px;
+        }
+        
+        #ul_botton_page_02{
+            margin-left: 20px;
+            margin-top: -10px;
+        }
+        
+        
+        #Are_you_re h1{
+            font-size: 60px;
+            margin-left: 45px;
+            margin-top: 320px;
+            margin-bottom: 380px;
+        }
+
+
+    
 }
