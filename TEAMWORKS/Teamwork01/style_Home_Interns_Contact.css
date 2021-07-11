@@ -1,3 +1,11 @@
+/* //////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/*
+Author: Jaime Cobo Nayar 
+Note: This code has been written as part of a Bootstrap project for a training program, 
+it was intended to make a replica of the original website tinyhorse.com, everything was made with educational purposes only.
+*/
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\//////////////////////////////////////////////////////////////////////////// */
+
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -140,7 +148,7 @@ nav ul li a {
     background-attachment: scroll;
     background-position: center center;
 }
-#gradientBar_home{
+#gradientBar_home_img{
     width:1900px;
     height: 175px;
     background-repeat: no-repeat;
@@ -182,8 +190,6 @@ nav ul li a {
     margin-left: 345px;
     margin-right: 345px;
     text-align: center;
-}
-
 }
 
 
@@ -345,7 +351,28 @@ height: 100px;
 margin-bottom: 50px;
 }
 
+#entertAgenBranButton_01{
+    border-color: #212326;
+    border-width: 0.7mm;
+    font-family: 'STIX Two Math', serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 599;
+    background: transparent;
+    /* margin-left: 345px; */
+    /* margin-top: 30px; */
+    width: 350px;
+    height: 100px;
+    margin-bottom: 50px;
+    }
+
 #entertAgenBranButton_Text{
+    text-align: center;
+    font-size: 14px;
+    margin-top: -40px;
+}
+
+#entertAgenBranButton_Text_01{
     text-align: center;
     font-size: 14px;
     margin-top: -40px;
@@ -555,10 +582,6 @@ table{
 
 }
 
-/* #home_contactUs{
-    width: 1900px;
-    height: 250px;
-} */
 #home_contactUs{
     width: 1900px;
     height: 250px;
@@ -784,6 +807,21 @@ table{
     position: relative;
 }
 
+.scrollTop{
+    color:cadetblue;
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    /* align-self: flex-end;  */
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+
+}
+
+#scrollTop{
+    position: relative;
+}
+
 
 /*MEDIA QUERY*/
 @media only screen and (max-width : 1700px) {
@@ -792,6 +830,7 @@ table{
         width: 1700px;
         /* height: 1144px; */
     }
+    
     
     .textCentral{                               /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         left: 30%;
@@ -802,6 +841,10 @@ table{
 
     }
 
+    #gradientBar_home_img{
+        width:1700px;
+    }
+
     #gradientBar{
         width: 1700px;
     }
@@ -809,6 +852,27 @@ table{
     #gradientBar_interns{                         /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:1700px;
     }
+
+    #entertAgenBran{
+        width: 1700px;
+        /* height: 375px; */
+    }
+
+    #recomendt{
+        width: 1700px;
+        /* height: 650px; */
+    }
+
+    #home_contactUs{
+        width: 1700px;
+        /* height: 250px; */
+    }
+
+    #home_contactUs_img{
+        width: 1700px;
+        /* height: 250px; */
+    }
+
         
     #locations{
         width: 1700px;
@@ -817,6 +881,11 @@ table{
 
     #ourIntership{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width: 1700px;
+    }
+
+    #ul_enterAgentBran{
+        margin-left: 245px;
+        /* margin-top: -40px; */
     }
 
     #text_ourIntership{                             /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */           /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -937,6 +1006,20 @@ table{
         margin-right: 220px;
     }
 
+    .textCentral_home h1{
+        font-size: 56px;
+        margin-left: 245px;
+        /* line-height: 1.6; */
+    }
+
+    #recomendt_ul{
+        margin-left: 245px;
+    }
+
+    .textCentral_home_bottom{
+        margin-left: 245px;
+    }
+
     #ul_locations{
         margin-left: 245px;
         }
@@ -1001,6 +1084,10 @@ table{
         left: 27%;
     }
 
+    #gradientBar_home_img{
+        width:1500px;
+    }
+
     #gradientBar{
         /* width:fit-content; */
         width:1500px;
@@ -1009,6 +1096,26 @@ table{
 
     #gradientBar_interns{                       /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:1500px;
+    }
+
+    #entertAgenBran{
+        width: 1500px;
+        /* height: 375px; */
+    }
+
+    #recomendt{
+        width: 1500px;
+        /* height: 650px; */
+    }
+
+    #home_contactUs{
+        width: 1500px;
+        /* height: 250px; */
+    }
+
+    #home_contactUs_img{
+        width: 1500px;
+        /* height: 250px; */
     }
         
     #locations{
@@ -1076,6 +1183,32 @@ table{
         margin-right: 120px;
     }
 
+    .textCentral_home h1{
+        font-size: 54px;
+        margin-left: 145px;
+        /* line-height: 1.6; */
+    }
+
+    #text_entertAgenBran{
+        /* line-height: 50px;
+        font-size: 32px;
+        font-weight: 570;
+        padding-top: 70px;
+        padding-bottom: 50px; */
+        /* font-family: 'STIX Two Math', serif; */
+        margin-left: 145px;
+        margin-right: 145px;
+        /* text-align: center; */
+    }
+
+    #recomendt_ul{
+        margin-left: 145px;
+    }
+
+    .textCentral_home_bottom{
+        margin-left: 145px;
+    }
+
     #ul_locations{
         margin-left: 145px;
         }
@@ -1111,6 +1244,11 @@ table{
         #cities_location_02{
             margin-left: 185px;
             
+        }
+
+        #ul_enterAgentBran{
+            margin-left: 145px;
+            /* margin-top: -40px; */
         }
 
         #text_ourIntership{                             /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */           /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -1188,6 +1326,10 @@ table{
     .textCentral{                               /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         left: 24%;
     }
+
+    #gradientBar_home_img{
+        width:1300px;
+    }
     
     #gradientBar{
         /* width:fit-content; */
@@ -1198,7 +1340,27 @@ table{
     #gradientBar_interns{                       /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:1300px;
     }
+
+    #entertAgenBran{
+        width: 1300px;
+        /* height: 375px; */
+    }
         
+    #recomendt{
+        width: 1300px;
+        /* height: 650px; */
+    }
+
+    #home_contactUs_img{
+        width: 1300px;
+        /* height: 250px; */
+    }
+
+    #home_contactUs{
+        width: 1300px;
+        /* height: 250px; */
+    }
+
     #locations{
         width: 1300px;
         height: 250px;
@@ -1267,6 +1429,32 @@ table{
         margin-right: 20px;
     }
 
+    .textCentral_home h1{
+        font-size: 52px;
+        margin-left: 45px;
+        /* line-height: 1.6; */
+    }
+
+    #text_entertAgenBran{
+        /* line-height: 50px;
+        font-size: 32px;
+        font-weight: 570;
+        padding-top: 70px;
+        padding-bottom: 50px; */
+        /* font-family: 'STIX Two Math', serif; */
+        margin-left: 45px;
+        margin-right: 45px;
+        /* text-align: center; */
+    }
+
+    #recomendt_ul{
+        margin-left: 45px;
+    }
+
+    .textCentral_home_bottom{
+        margin-left: 45px;
+    }
+
     #ul_locations{
         margin-left: 45px;
         }
@@ -1315,6 +1503,11 @@ table{
 
         .copyright{
             left: -30px;
+        }
+
+        #ul_enterAgentBran{
+            margin-left: 45px;
+            /* margin-top: -40px; */
         }
 
 
@@ -1391,6 +1584,10 @@ table{
     .textCentral{                               /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         left: 29%;
     }
+
+    #gradientBar_home_img{
+        width:1100px;
+    }
     
     
     #gradientBar{
@@ -1401,6 +1598,26 @@ table{
 
     #gradientBar_interns{                       /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:1100px;
+    }
+
+    #entertAgenBran{
+        width: 1100px;
+        /* height: 375px; */
+    }
+
+    #recomendt{
+        width: 1100px;
+        /* height: 650px; */
+    }
+
+    #home_contactUs_img{
+        width: 1100px;
+        /* height: 250px; */
+    }
+
+    #home_contactUs{
+        width: 1100px;
+        /* height: 250px; */
     }
         
     #locations{
@@ -1471,6 +1688,86 @@ table{
     }
 
     /* //////////////////////////////////////// */
+
+    .textCentral_home h1{
+        font-size: 43px;
+        /* margin-left: 45px; */
+        /* line-height: 1.6; */
+    }
+
+    #entertAgenBranButton{
+        /* border-color: #212326; */
+        /* border-width: 0.7mm; */
+        /* font-family: 'STIX Two Math', serif; */
+        letter-spacing: 0.5px;
+        font-size: 28px;
+        font-weight: 599;
+        background: transparent;
+        /* margin-left: 345px; */
+        /* margin-top: 30px; */
+        width: 250px;
+        /* height: 100px; */
+        /* margin-bottom: 50px; */
+    }
+
+    #entertAgenBranButton_01{
+          /* border-color: #212326; */
+        /* border-width: 0.7mm; */
+        /* font-family: 'STIX Two Math', serif; */
+        letter-spacing: 0.5px;
+        font-size: 28px;
+        font-weight: 599;
+        background: transparent;
+        margin-left: 45px;
+        /* margin-top: 30px; */
+        width: 250px;
+        /* height: 100px; */
+        /* margin-bottom: 50px; */
+
+    }
+
+        #entertAgenBranButton_Text{
+            /* text-align: center; */
+            font-size: 10px;
+            /* margin-left: 45px; */
+            /* margin-top: -40px; */
+        }
+
+        #entertAgenBranButton_Text_01{
+            /* text-align: center; */
+            font-size: 10px;
+            margin-left: 45px;
+            /* margin-top: -40px; */
+        }
+
+
+
+        #recomendt_ul{
+            width: 325px;
+            height: 350px;
+            margin-top: 50px;
+            /* margin-left: 345px; */
+        }
+        #recomendt_ul_01{
+            width: 325px;
+            height: 350px;
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+        
+        #recomendt_ul_02{
+            width: 325px;
+            height: 350px;
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+        
+        #recomendt_text{
+            font-family: 'STIX Two Math', serif;
+            font-size: 25px;
+            font-weight: 599;
+            line-height: 50px;
+        }
 
     #ul_locations{
         margin-left: 45px;
@@ -1587,6 +1884,10 @@ table{
     .textCentral{                               /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         left: 33%;
     }
+
+    #gradientBar_home_img{
+        width:900px;
+    }
     
     #gradientBar{
         /* width:fit-content; */
@@ -1596,6 +1897,26 @@ table{
 
     #gradientBar_interns{                       /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:900px;
+    }
+
+    #entertAgenBran{
+        width: 900px;
+        /* height: 375px; */
+    }
+
+    #recomendt{
+        width: 900px;
+        height: 800px;
+    }
+
+    #home_contactUs{
+        width: 900px;
+        /* height: 250px; */
+    }
+
+    #home_contactUs_img{
+        width: 900px;
+        /* height: 250px; */
     }
         
     #locations{
@@ -1667,6 +1988,109 @@ table{
     }
 
     /* //////////////////////////////////////// */
+
+    .textCentral_home h1{
+        font-size: 34px;
+        /* margin-left: 45px; */
+        /* line-height: 1.6; */
+    }
+
+    #entertAgenBranButton{
+        /* border-color: #212326; */
+        /* border-width: 0.7mm; */
+        /* font-family: 'STIX Two Math', serif; */
+        letter-spacing: 0.5px;
+        font-size: 22px;
+        /* font-weight: 599; */
+        background: transparent;
+        /* margin-left: 345px; */
+        /* margin-top: 30px; */
+        width: 200px;
+        /* height: 100px; */
+        /* margin-bottom: 50px; */
+    }
+
+        #entertAgenBranButton_Text{
+            /* text-align: center; */
+            font-size: 8px;
+            /* margin-top: -40px; */
+        }
+
+    #entertAgenBranButton{
+        /* border-color: #212326; */
+        /* border-width: 0.7mm; */
+        /* font-family: 'STIX Two Math', serif; */
+        letter-spacing: 0.5px;
+        font-size: 20px;
+        font-weight: 599;
+        background: transparent;
+        margin-left: 0px;
+        margin-top: 10px; 
+        width: 200px;
+        height: 75px;
+        /* margin-bottom: 50px; */
+
+    }
+
+
+    #entertAgenBranButton_01{
+        /* border-color: #212326; */
+        /* border-width: 0.7mm; */
+        /* font-family: 'STIX Two Math', serif; */
+        letter-spacing: 0.5px;
+        font-size: 20px;
+        font-weight: 599;
+        background: transparent;
+        margin-left: 15px;
+        margin-top: 10px;
+        width: 200px;
+        height: 75px;
+        /* margin-bottom: 50px; */
+
+    }
+
+        #entertAgenBranButton_Text{
+            /* text-align: center; */
+            font-size: 10px;
+            /* margin-left: 45px; */
+            /* margin-top: -40px; */
+        }
+
+        #entertAgenBranButton_Text_01{
+            /* text-align: center; */
+            font-size: 10px;
+            margin-left: 0px;
+            /* margin-top: -40px; */
+        }
+
+
+        #recomendt_ul{
+            width: 250px;
+            height: 350px;
+            margin-top: 50px;
+            /* margin-left: 345px; */
+        }
+        #recomendt_ul_01{
+            width: 250px;
+            height: 350px;
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+        
+        #recomendt_ul_02{
+            width: 250px;
+            height: 350px;
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+        
+        #recomendt_text{
+            font-family: 'STIX Two Math', serif;
+            font-size: 25px;
+            font-weight: 599;
+            line-height: 50px;
+        }
+
 
     #ul_locations{
         margin-left: 45px;
@@ -1851,6 +2275,10 @@ table{
 
     /* ############################################################################ */
 
+    #gradientBar_home_img{
+        width:700px;
+    }
+
 
     #gradientBar{
         /* width:fit-content; */
@@ -1860,6 +2288,26 @@ table{
 
     #gradientBar_interns{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:700px;
+    }
+
+    #entertAgenBran{
+        width: 700px;
+        height: 800px;
+    }
+
+    #recomendt{
+        width: 700px;
+        height: 1100px;
+    }
+
+    #home_contactUs_img{
+        width: 700px;
+        /* height: 250px; */
+    }
+
+    #home_contactUs{
+        width: 700px;
+        /* height: 250px; */
     }
         
     #locations{
@@ -1953,6 +2401,91 @@ table{
 
     /* //////////////////////////////////////// */
 
+    #entertAgenBranButton{
+        border-color: #212326;
+        border-width: 0.7mm;
+        font-family: 'STIX Two Math', serif;
+        letter-spacing: 1px;
+        font-size: 30px;
+        font-weight: 599;
+        background: transparent;
+        margin-left: 100px;
+        /* margin-top: 30px; */
+        width: 350px;
+        height: 100px;
+        margin-bottom: 50px;
+        }
+        
+        #entertAgenBranButton_01{
+            border-color: #212326;
+            border-width: 0.7mm;
+            font-family: 'STIX Two Math', serif;
+            letter-spacing: 1px;
+            font-size: 30px;
+            font-weight: 599;
+            background: transparent;
+            margin-left: 100px;
+            /* margin-top: 30px; */
+            width: 350px;
+            height: 100px;
+            margin-bottom: 50px;
+            }
+        
+        #entertAgenBranButton_Text{
+            text-align: center;
+            font-size: 14px;
+            margin-top: -40px;
+            margin-left: 100px;
+        }
+        
+        #entertAgenBranButton_Text_01{
+            text-align: center;
+            font-size: 14px;
+            margin-top: -40px;
+            margin-left: 100px;
+        }
+
+
+        #recomendt_ul{
+            width: 600px;
+            height: 150px;
+            margin-top: 100px;
+            /* margin-left: 345px; */
+        }
+        #recomendt_ul_01{
+            width: 600px;
+            height: 150px;
+            margin-top: 150px;
+            margin-left: 50px;
+        }
+        
+        #recomendt_ul_02{
+            width: 600px;
+            height: 150px;
+            margin-top: 150px;
+            margin-left: 50px;
+        }
+        
+        #recomendt_text{
+            font-family: 'STIX Two Math', serif;
+            font-size: 25px;
+            font-weight: 599;
+            line-height: 50px;
+        }
+
+        #recomendtName01{
+            padding-top: 10px;
+        }
+        #recomendtName02{
+            padding-top: 10px;
+        }
+        
+        #recomendtName03{
+            padding-top: 10px;
+        }
+        
+
+
     #ul_locations{
         margin-left: 45px;
         }
@@ -2043,7 +2576,73 @@ table{
             margin-left: 175px;
             margin-top: 0px;
         }
-
-        
         
 }
+
+/* ####################### CAROUSEL ############################### */
+@keyframes scroll {
+	0% { transform: translateX(0%); }
+
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+/* // Styling */
+.slider {
+	background: transparent;
+    color: transparent;
+    background-color: transparent;
+	/* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125); */
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: absolute;
+	width: 1900px;
+    /* margin-left: 345px;  */
+    margin-top: 40px;
+}
+
+.slide-track{
+    /* background: red; */
+    /* filter: drop-shadow(16px 16px 20px red) invert(75%); */
+}
+	.slider::before,
+	.slider::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	.silder::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	.silder::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll 40s linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+	
+	.slide {
+		height: 100px;
+		width: 250px;
+	}
+
+
+
+
+    /* ###################### Scroll top button ########################*/
+
+    #toTopBtn{
+        font-size: 20px;
+    }

@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+
+<!-- //////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- 
+Author: Jaime Cobo Nayar 
+Note: This code has been written as part of a Bootstrap project for a training program, 
+it was intended to make a replica of the original website tinyhorse.com, everything was made with educational purposes only. 
+-->
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\//////////////////////////////////////////////////////////////////////////// -->
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,7 +23,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!--style.css-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style_Home_Interns_Contact.css">
 
     <title>
       Contact Us | Entertainment, Brand &amp; Agency Services | Tiny Horse
@@ -44,7 +53,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <div class="container-fluid d-flex">
             <div  class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-              <a href="https://tinyhorse.com/" style="max-height: 80px">
+              <a href="index.html" style="max-height: 80px">
                 <img id="logo" src="Tiny-Horse-logo-White-300x138.png" alt="Tiny Horse" style="max-height: 88px"/>
               </a>
               
@@ -54,7 +63,7 @@
                 <!-- <a href="#" id="menu-icon"></a> -->
                 <ul id="ul_navbar_options" class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active anchor_navbar" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link active anchor_navbar" aria-current="page" href="index.html">HOME</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle anchor_navbar" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -75,10 +84,10 @@
                     <a class="nav-link disabled anchor_navbar" href="#" tabindex="-1" aria-disabled="true">CAREERS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled anchor_navbar" href="#" tabindex="-1" aria-disabled="true">INTERNS</a>
+                    <a class="nav-link  anchor_navbar" href="interns.html" tabindex="-1" aria-disabled="true">INTERNS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled anchor_navbar" href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
+                    <a class="nav-link  anchor_navbar" href="contact.html" tabindex="-1" aria-disabled="true">CONTACT</a>
                   </li>
                 </ul>
                 <a href="#" id="menu-icon"></a>
@@ -353,17 +362,8 @@
 
     
     
-      
-      <!-- <a
-        href="#top"
-        title="Scroll to top"
-        id="scroll-top-link"
-        aria-hidden="true"
-        data-av_icon=""
-        data-av_iconfont="entypo-fontello"
-        class=""
-        ><span class="avia_hidden_link_text">Scroll to top</span>
-      </a> -->
+  
+    
     </div> 
 
     <div id="copyright" class="container">
@@ -372,7 +372,24 @@
                 <a href="/privacy-policy/">Privacy Policy</a> |
                 <a href="/legal/">Legal</a>
               </span>
-            </div>
+      </div>
+
+      <div id="scrollTop" class="container">
+        <span class="scrollTop">
+
+          <button onclick="topFunction()" id="toTopBtn" title="Go to top" class="btn btn-link">^</button>
+          <!-- <a
+            href="#top"
+            title="Scroll to top"
+            id="scroll-top-link"
+            aria-hidden="true"
+            data-av_icon=""
+            data-av_iconfont="entypo-fontello"
+            class=""
+            ><span class="avia_hidden_link_text">Scroll to top</span>
+          </a> -->
+        </span>
+      </div>
     
     <!-- <div id="fb-root"></div> -->
     
@@ -411,6 +428,35 @@
       $('img').toggleClass('scrolled', $(this).scrollTop() > 1);
       });
      </script>
+
+    <script>
+      $("a[href='#top']").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+      });
+    </script>
+
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("toTopBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
 
      <!-- <script>
       document.querySelector('#toggle-button').addEventListener('click', function() {
