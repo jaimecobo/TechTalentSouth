@@ -22,13 +22,17 @@
 } */
 
 /* ##################################################################### */
-#menu-icon {
+/* #menu-icon {
 	display: hidden !important;
 	width: 40px;
 	height: 40px;
 	background: url(menu_icon_64px.png) center;
 	background-size: contain;
-}
+} */
+
+.navbar ul li:hover {
+    border-bottom: 2px solid red;
+  }
 
 ul {
     list-style-type: none;
@@ -56,18 +60,17 @@ nav ul li a {
 /* ################################################################### */
 
 #transparent_block{
-    /* background:transparent; */
-    height: 100px
+    background:transparent;
+    /* height: 100px */
     /* margin: 0;
     padding: 0; */
 }
 
-#interns_img_block{
+/* #interns_img_block{
     opacity: 1; 
     background-color: #000000;
-    /* filter:grayscale(0.5); */
-
-}
+    filter:grayscale(0.5);
+} */
 
 
 #main_img{
@@ -76,7 +79,8 @@ nav ul li a {
     height: 1040px;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: center;
+    filter: brightness(60%);
 }
 
 #ul_navbar_options{
@@ -136,6 +140,13 @@ nav ul li a {
     background-attachment: scroll;
     background-position: center center;
 }
+#gradientBar_home{
+    width:1900px;
+    height: 175px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+}
 
 #locations{
     width: 1900px;
@@ -149,10 +160,30 @@ nav ul li a {
     background: #f4eae9;
 }
 
+#entertAgenBran{
+    width: 1900px;
+    height: 375px;
+    background: #f4eae9;
+}
+
 #experienceIsKing{
     width: 1900px;
     height: 350px;
     background: #f4eae9;
+}
+
+#text_entertAgenBran{
+    line-height: 50px;
+    font-size: 32px;
+    font-weight: 570;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-family: 'STIX Two Math', serif;
+    margin-left: 345px;
+    margin-right: 345px;
+    text-align: center;
+}
+
 }
 
 
@@ -164,6 +195,7 @@ nav ul li a {
     padding-bottom: 50px;
     font-family: 'STIX Two Math', serif;
     margin-left: 345px;
+    margin-right: 345px;
 }
 
 #title_experienceIsKing{
@@ -185,7 +217,63 @@ nav ul li a {
     padding-bottom: 50px;
     font-family: 'STIX Two Math', serif;
     margin-left: 345px;
+    margin-right: 325px;
+}
 
+#recomendt{
+    background-color: white;
+    width: 1900px;
+    height: 650px;
+
+}
+
+#recomendt_ul{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 345px;
+}
+#recomendt_ul_01{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+#recomendt_ul_02{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+#recomendt_text{
+    font-family: 'STIX Two Math', serif;
+    font-size: 25px;
+    font-weight: 599;
+    line-height: 50px;
+}
+
+.recomendt_name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#recomendtName01{
+    padding-top: 155px;
+}
+#recomendtName02{
+    padding-top: 110px;
+}
+
+#recomendtName03{
+    padding-top: 10px;
+}
+
+#recomendt_ocup{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 #tripleCrownDiv{
@@ -197,6 +285,11 @@ nav ul li a {
 #imgTripleCrown{
     margin-left: 445px;
     padding-top: 90px;
+}
+
+#imgTripleCrown img{
+    width: 1000px;
+    height: 221px; 
 }
 
 
@@ -230,6 +323,32 @@ textarea {
     background: #e1e1e1;
     width: 1210px;
     height: 200px;
+}
+
+#ul_enterAgentBran{
+    margin-left: 345px;
+    margin-top: -40px;
+}
+
+#entertAgenBranButton{
+border-color: #212326;
+border-width: 0.7mm;
+font-family: 'STIX Two Math', serif;
+letter-spacing: 1px;
+font-size: 30px;
+font-weight: 599;
+background: transparent;
+/* margin-left: 345px; */
+/* margin-top: 30px; */
+width: 350px;
+height: 100px;
+margin-bottom: 50px;
+}
+
+#entertAgenBranButton_Text{
+    text-align: center;
+    font-size: 14px;
+    margin-top: -40px;
 }
 
 #formButton{
@@ -369,15 +488,15 @@ margin-top: 25px;
     padding-top: 10px;
 }
 
-/* #internsComents{
+#internsComents{
     width: 1900px;
-    height: 400px;
-} */
+    height: 700px;
+}
 
-#carouselExampleControls{
+/* #carouselExampleControls{
     height: 700px;
     background: white;
-}
+} */
 
 #ul_internscarousel_00{
     padding-left: 345px;
@@ -436,6 +555,29 @@ table{
 
 }
 
+/* #home_contactUs{
+    width: 1900px;
+    height: 250px;
+} */
+#home_contactUs{
+    width: 1900px;
+    height: 250px;
+}
+
+#l1_home_contactUs{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    /* padding-top:80px; */
+    /* margin-left: 285px; */
+}
+
+#l2_home_contactUs{
+    font-family: 'STIX Two Math', serif;
+    font-size: 40px;
+    padding-top: 30px;
+    /* margin-left: 285px; */
+}
+
 #l1_inTheSaddle{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -447,8 +589,8 @@ table{
     font-family: 'STIX Two Math', serif;
     font-size: 24px;
     margin-left: 285px;
-    
 }
+
 #bottomPage{
     
     background-color: #212326;
@@ -521,6 +663,7 @@ table{
     /* height: 800px; */
     /* padding-top: 200px; */
 }
+
 /* #Are_you_re div{
     color: transparent;
 
@@ -539,6 +682,67 @@ table{
     /* padding-top: 100px; */
 }
 
+/* #home_text{
+        font-family: 'Playfair Display', serif;
+        font-size: 10px;
+        background:transparent;
+        position: absolute;
+        top: 50%;
+        left: 33%;
+        transform: translate(-50%, -50%);
+        background:transparent;
+        color: #f4eae9;
+        margin-left: 345px;
+        margin-top: 320px;
+        margin-bottom: 380px;
+} */
+
+.textCentral_home{
+    background:transparent;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    background:transparent;
+    color: #f4eae9;
+}
+
+.textCentral_home h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 59px;
+    margin-left: 345px;
+    line-height: 1.6;
+}
+
+
+#home_contactUs_img{
+    width: 1900px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    /* filter: brightness(60%); */
+}
+
+.textCentral_home_bottom{
+    position: absolute;
+    color: #f4eae9;
+    margin-top: 40px;
+    margin-left: 345px;
+    line-height: 1.6;
+}
+
+.textCentral_contact{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    background:transparent;
+    /* color: black; */
+    color: #f4eae9;
+    /* margin-left: 345px; */
+}
+
 
 .textCentral{
     position: absolute;
@@ -546,8 +750,8 @@ table{
     left: 33%;
     transform: translate(-50%, -50%);
     background:transparent;
-    color: black;
-    /* color: #f4eae9; */
+    /* color: black; */
+    color: #f4eae9;
     /* margin-left: 345px; */
 }
 .textCentral h6{
@@ -589,12 +793,20 @@ table{
         /* height: 1144px; */
     }
     
-    #gradientBar{
-        /* width:fit-content; */
-        width:1700px;
-        height: 50px;
+    .textCentral{                               /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        left: 30%;
     }
-    #gradientBar_interns{
+
+    .textCentral h1{
+        font-size: 47px;
+
+    }
+
+    #gradientBar{
+        width: 1700px;
+    }
+
+    #gradientBar_interns{                         /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:1700px;
     }
         
@@ -603,9 +815,102 @@ table{
         height: 250px;      
     }
 
-    #ourIntership{
+    #ourIntership{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width: 1700px;
     }
+
+    #text_ourIntership{                             /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */           /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        margin-left: 245px;
+    }
+
+    #imgTripleCrown{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */           /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        margin-left: 345px;
+    }
+
+    #tripleCrownDiv{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1700px;
+        /* height: 400px; */
+    }
+
+    #experienceIsKing{                              /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1700px;
+        /* height: 350px; */
+    }
+    
+    #title_experienceIsKing{                        /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        margin-left: 245px;
+    }
+    
+    
+    #text_experienceIsKing{                         /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        margin-left: 245px;
+        margin-right: 125px;
+    
+    }
+
+    #whatIsTripleCrown{                             /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1700px;
+        /* height: 500px; */
+    }
+    
+    #title_whatIsTP{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        margin-left: 245px;
+    }
+    
+    #ul_whatIsTP_00{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        margin-left: 210px;
+    }
+    
+    #ul_whatIsTP_01{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        margin-left: 40px;
+    
+    }
+    
+    #ul_whatIsTP_02{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        margin-left: 40px;
+    }
+
+    #internsComents{
+        width: 1700px;
+        /* height: 400px; */
+    }
+
+    #chooseStable{                                  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1700px;
+        /* height: 500px; */
+    }
+    
+    #ul_chooseStable_00{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        padding-left: 245px;
+    }
+    #ul_chooseStable_01{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        padding-left: 70px;
+    }
+
+    #inTheSaddle{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1700px;
+        /* height: 250px; */
+    
+    }
+    
+    #l1_inTheSaddle{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        padding-top:80px;
+        margin-left: 185px;
+    }
+    
+    #l2_inTheSaddle{
+        margin-left: 185px;                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    }
+
+    #ul_internscarousel_00{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        padding-left: 245px;
+    }
+
+    #ul_chooseStable_01{
+        padding-left: 50px;
+    }
+
+
     
     #formDiv{
         width: 1700px;
@@ -692,13 +997,17 @@ table{
 
     }
     
+    .textCentral{                               /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        left: 27%;
+    }
+
     #gradientBar{
         /* width:fit-content; */
         width:1500px;
         height: 50px;
     }
 
-    #gradientBar_interns{
+    #gradientBar_interns{                       /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:1500px;
     }
         
@@ -707,8 +1016,39 @@ table{
         height: 250px;
     }
 
-    #ourIntership{
+    #ourIntership{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width: 1500px;
+    }
+    
+    #tripleCrownDiv{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1500px;
+        /* height: 400px; */
+    }
+
+    #experienceIsKing{                              /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1500px;
+        /* height: 350px; */
+    }
+
+    #whatIsTripleCrown{                             /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1500px;
+        /* height: 500px; */
+    }
+
+    #internsComents{
+        width: 1500px;
+        /* height: 400px; */
+    }
+
+    #chooseStable{                                  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1500px;
+        /* height: 500px; */
+    }
+
+    #inTheSaddle{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1500px;
+        /* height: 250px; */
+    
     }
     
     #formDiv{
@@ -772,6 +1112,66 @@ table{
             margin-left: 185px;
             
         }
+
+        #text_ourIntership{                             /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */           /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 145px;
+            margin-right: 145px;
+        }
+        
+        #imgTripleCrown{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */           /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 245px;
+        }
+        
+        
+        
+        #title_experienceIsKing{                        /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 145px;
+        }
+        
+        
+        #text_experienceIsKing{                         /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 145px;
+            margin-right: 125px;
+        }
+        
+        #title_whatIsTP{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 145px;
+        }
+
+        #ul_whatIsTP_00{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 110px;
+        }
+        
+        #ul_whatIsTP_01{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 40px;
+        
+        }
+        
+        #ul_whatIsTP_02{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 40px;
+        }
+        
+        
+        #ul_chooseStable_00{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            padding-left: 145px;
+        }
+        #ul_chooseStable_01{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            padding-left: 40px;
+        }
+        
+        
+        #l1_inTheSaddle{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            padding-top:80px;
+            margin-left: 85px;
+        }
+        
+        #l2_inTheSaddle{
+            margin-left: 85px;                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        }
+        
+        #ul_internscarousel_00{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            padding-left: 145px;
+        }
         
         
 }
@@ -784,6 +1184,10 @@ table{
         width: 1300px;
         /* height: 1370px; */
     }
+
+    .textCentral{                               /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        left: 24%;
+    }
     
     #gradientBar{
         /* width:fit-content; */
@@ -791,7 +1195,7 @@ table{
         height: 50px;
     }
 
-    #gradientBar_interns{
+    #gradientBar_interns{                       /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:1300px;
     }
         
@@ -800,10 +1204,43 @@ table{
         height: 250px;
     }
 
-    #ourIntership{
+    #ourIntership{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width: 1300px;
     }
     
+    #tripleCrownDiv{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1300px;
+        /* height: 400px; */
+    }
+
+    #experienceIsKing{                              /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1300px;
+        /* height: 350px; */
+    }
+
+    #whatIsTripleCrown{                             /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1300px;
+        /* height: 500px; */
+    }
+
+    #internsComents{
+        width: 1300px;
+        /* height: 400px; */
+    }
+
+    #chooseStable{                                  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1300px;
+        /* height: 500px; */
+    }
+
+    #inTheSaddle{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1300px;
+        /* height: 250px; */
+    
+    }
+    
+    
+
     #formDiv{
         width: 1300px;
         height: 750px;
@@ -879,6 +1316,65 @@ table{
         .copyright{
             left: -30px;
         }
+
+
+        #text_ourIntership{                             /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */           /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 45px;
+            margin-right: 45px;
+        }
+        
+        #imgTripleCrown{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */           /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 145px;
+        }
+    
+        
+        #title_experienceIsKing{                        /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 45px;
+        }
+        
+        
+        #text_experienceIsKing{                         /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 45px;
+            margin-right: 75px;
+        }
+        
+        #title_whatIsTP{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 45px;
+        }
+        
+        #ul_whatIsTP_00{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 10px;
+        }
+        
+        #ul_whatIsTP_01{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 40px;
+        
+        }
+        
+        #ul_whatIsTP_02{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 40px;
+        }
+        
+        
+        #ul_chooseStable_00{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            padding-left: 45px;
+        }
+        
+        
+        
+        #l1_inTheSaddle{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            padding-top:80px;
+            margin-left: 45px;
+        }
+        
+        #l2_inTheSaddle{
+            margin-left: 45px;                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        }
+        
+        #ul_internscarousel_00{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            padding-left: 45px;
+        }
+        
        
 }
     
@@ -891,6 +1387,11 @@ table{
         width: 1100px;
         /* height: 600px; */
     }
+
+    .textCentral{                               /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        left: 29%;
+    }
+    
     
     #gradientBar{
         /* width:fit-content; */
@@ -898,7 +1399,7 @@ table{
         height: 50px;
     }
 
-    #gradientBar_interns{
+    #gradientBar_interns{                       /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:1100px;
     }
         
@@ -907,10 +1408,42 @@ table{
         height: 250px;
     }
 
-    #ourIntership{
+    #ourIntership{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width: 1100px;
     }
     
+    #tripleCrownDiv{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1100px;
+        /* height: 400px; */
+    }
+
+    #experienceIsKing{                              /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1100px;
+        height: 400px; 
+    }
+    
+    #whatIsTripleCrown{                             /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1100px;
+        height: 450px;
+    }
+
+    #internsComents{
+        width: 1100px;
+        /* height: 400px; */
+    }
+
+    #chooseStable{                                  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1100px;
+        /* height: 500px; */
+    }
+
+    #inTheSaddle{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 1100px;
+        /* height: 250px; */
+    
+    }
+    
+
     #formDiv{
         width: 1100px;
         height: 750px;
@@ -982,6 +1515,64 @@ table{
             
         }
 
+        #imgTripleCrown{              
+            width: 900px;                  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */           /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 45px;
+        }
+
+        #ul_whatIsTP_01{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 20px;
+        
+        }
+        
+        #ul_whatIsTP_02{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-left: 20px;
+        }
+
+        #ul_chooseStable_01{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            /* padding-left: 20px; */
+        }
+
+        #img_chooseStable{
+            width: 200px;
+            height: 200px;
+            /* padding-top: 40px; */
+        }
+        
+        #inner_div_WhIsTP{
+            width:300px;
+            height: 350px;
+        }
+        
+        #inner_div_WhIsTP li h2{
+            font-size: 20px;
+            /* font-weight: 599; 
+            margin-top: 30px;  */
+        }
+        
+        #inner_div_WhIsTP li h4{
+            font-size: 12px;
+            /* font-weight: 599;
+            margin-top: 30px;  */
+        }
+
+        #inner_div_interns{
+            width: 300px;
+            height: 600px;
+        }
+        
+        #inner_div_interns li h3{
+            font-size: 16px;
+            /* line-height: 1.6;
+            padding-top: 100px; */
+        }
+        
+        #internName{
+            font-size: 14px;
+            /* line-height: 1.6;
+            padding-top: 10px;
+            padding-left: 20px; */
+        }
     
 }
 @media only screen and (max-width : 900px) {
@@ -992,6 +1583,10 @@ table{
         width: 900px;
         height: 1120px;
     }
+
+    .textCentral{                               /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        left: 33%;
+    }
     
     #gradientBar{
         /* width:fit-content; */
@@ -999,7 +1594,7 @@ table{
         height: 50px;
     }
 
-    #gradientBar_interns{
+    #gradientBar_interns{                       /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:900px;
     }
         
@@ -1008,10 +1603,43 @@ table{
         height: 250px;
     }
 
-    #ourIntership{
+    #ourIntership{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width: 900px;
+        height: 300px;
+    }
+
+    #tripleCrownDiv{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 900px;
+        /* height: 400px; */
     }
     
+    #experienceIsKing{                              /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 900px;
+        height: 450px;
+    }
+    
+    #whatIsTripleCrown{                             /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 900px;
+        height: 400px;
+    }
+
+    #internsComents{
+        width: 900px;
+        height: 900px;
+    }
+
+    #chooseStable{                                  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 900px;
+        /* height: 500px; */
+    }
+
+    #inTheSaddle{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 900px;
+        /* height: 250px; */
+    
+    }
+    
+
     #formDiv{
         width: 900px;
         height: 750px;
@@ -1082,6 +1710,83 @@ table{
             
         }
     
+        #imgTripleCrown img{
+            width: 800px;                       /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            height: 200px; 
+        }
+
+        #text_experienceIsKing{                         /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            margin-right: 45px;
+        }
+
+        #ul_chooseStable_01{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            /* padding-left: 20px; */
+        }
+
+        #img_chooseStable{
+            width: 150px;
+            height: 150px;
+            /* padding-top: 40px; */
+        }
+        
+
+        #inner_div_WhIsTP{
+            width:250px;
+            height: 300px;
+        }
+        
+        #inner_div_WhIsTP li h2{
+            font-size: 20px;
+            /* font-weight: 599; 
+            margin-top: 30px;  */
+        }
+        
+        #inner_div_WhIsTP li h4{
+            font-size: 12px;
+            /* font-weight: 599;
+            margin-top: 30px;  */
+        }
+
+        #inner_div_interns{
+            width: 300px;
+            height: 500px;
+            /* padding-top: 20px; */
+        }
+        
+        #inner_div_interns li h3{
+            font-size: 16px;
+            /* line-height: 1.6; */
+            padding-top: 40px;
+        }
+        
+        #internName{
+            font-size: 14px;
+            /* line-height: 1.6; */
+            /* padding-top: 10px; */
+            /* padding-left: 20px; */
+    
+        }
+        
+        .inner_div_interns_03{
+            margin-top: -40px;    
+            margin-left: 150px;
+        }
+
+        .inner_div_interns_01{
+            margin-left: 60px;
+            /* margin-top: 10px; */
+        }
+
+        .inner_div_interns_02{
+            margin-left: 30px;
+            /* margin-top: -40px; */
+        }
+
+        .inner_div_interns_03{
+            margin-left: 250px;
+            /* margin-top: 0px; */
+        }
+    
 }
 
 @media only screen and (max-width : 700px) {
@@ -1091,6 +1796,13 @@ table{
         width: 700px;
         height: 1120px;
     }
+
+    .textCentral{                               /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        left: 39%;
+    }
+
+
+
     /* ############################################################################## */
     a, 
     a:active, 
@@ -1146,7 +1858,7 @@ table{
         height: 50px;
     }
 
-    #gradientBar_interns{
+    #gradientBar_interns{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width:700px;
     }
         
@@ -1155,10 +1867,43 @@ table{
         height: 400px;
     }
 
-    #ourIntership{
+    #ourIntership{                                   /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
         width: 700px;
+        /* height: ; */
     }
     
+    #tripleCrownDiv{                                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 700px;
+        /* height: 400px; */
+    }
+
+    #experienceIsKing{                              /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 700px;
+        height: 550px;
+    }
+
+    #whatIsTripleCrown{                             /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 700px;
+        height: 900px;
+    }
+
+    #internsComents{
+        width: 700px;
+        height: 1400px;
+    }
+    
+    #chooseStable{                                  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 700px;
+        height: 2000px;
+    }
+
+    #inTheSaddle{                            /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+        width: 700px;
+        /* height: 250px; */
+    
+    }
+    
+
     #formDiv{
         width: 700px;
         height: 750px;
@@ -1242,6 +1987,63 @@ table{
             margin-bottom: 380px;
         }
 
+        #imgTripleCrown img{
+            width: 600px;                       /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */                    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+            height: 150px; 
+        }
 
+        #inner_div_WhIsTP{
+            width: 600px;
+            height: 250px;
+        }
+
+        #title_whatIsTP{
+            margin-top: 50px;
+        }
+
+        #ul_whatIsTP_00{
+            margin-top: 15px;
+        }
+        
+        #ul_whatIsTP_01{
+            margin-top: 15px;
+        }
+        
+        #ul_whatIsTP_02{
+            margin-top: 15px;
+        }
+
+        #img_chooseStable{
+            width: 400px;
+            height: 350px;
+            padding-top: 40px;
+            margin-left: 100px;
+            /* margin-right: 150px; */
+        }
+
+        #inner_div_chooseStable li h2{
+            margin-left: 100px;
+        }
     
+        #ul_internscarousel_01{
+            margin-left: 0px;
+        }
+
+        .inner_div_interns_01{
+            margin-left: 175px;
+            margin-top: 10px;
+        }
+
+        .inner_div_interns_02{
+            margin-left: 175px;
+            margin-top: -40px;
+        }
+
+        .inner_div_interns_03{
+            margin-left: 175px;
+            margin-top: 0px;
+        }
+
+        
+        
 }

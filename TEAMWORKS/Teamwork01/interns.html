@@ -55,15 +55,15 @@
           
               <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                 <!-- <a href="#" id="menu-icon"></a> -->
-                <ul id="ul_navbar_options" class="navbar-nav ms-auto">
+                <ul id="ul_navbar_options" class="navbar-nav ms-auto"> <!--mb-2 mb-lg-0 -->
                   <li class="nav-item">
-                    <a class="nav-link active anchor_navbar" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link disabled anchor_navbar" aria-current="page" href="#">HOME</a>
                   </li>
-                  <li class="nav-item dropdown">
+                  <li class="nav-item dropdown"> <!--underline -->
                     <a class="nav-link dropdown-toggle anchor_navbar" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       WORK
                     </a>
-                    <ul style="background: #212326;"class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <ul style="background: #212326;"class="dropdown-menu" aria-labelledby="navbarScrollingDropdown"> <!--aria-labelledby="navbarDropdown"-->
                       <li style="color: red;"><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item anchor_navbar" href="#">ENTERTAINMENT</a></li>
                       <li><a class="dropdown-item anchor_navbar" href="#">AGENCY</a></li>
@@ -133,26 +133,34 @@
 
     <div id="ourIntership">
           <div>
-              <h2 id=text_ourIntership>Our internship program is currently on pause as we deal with the impacts of COVID-19. We invite you to still apply so<br>
-              we can have your resume on hand and will reach out with updates.</h2>
+              <!-- <h2 id=text_ourIntership>Our internship program is currently on pause as we deal with the impacts of COVID-19. We invite you to still apply so<br>
+              we can have your resume on hand and will reach out with updates.</h2> -->
+              <p id=text_ourIntership>Our internship program is currently on pause as we deal with the impacts of COVID-19. We invite you to still apply so
+                we can have your resume on hand and will reach out with updates.</p>
           </div>
     </div>
 
     <div id="tripleCrownDiv">
       <div id="imgTripleCrown">
-        <img src="Artboard1-1.png" alt="" title="Artboard+1 (1)" height="221" width="1000" itemprop="thumbnailUrl">
+        <img src="Artboard1-1.png" alt="" title="Artboard+1 (1)" itemprop="thumbnailUrl">
       </div>
     </div>
 
     <div id="experienceIsKing">
         <div>
             <h2 id=title_experienceIsKing>EXPERIENCE IS KING</h2>
-            <h2 id=text_experienceIsKing>
+            <!-- <h2 id=text_experienceIsKing>
                 We believe you learn better by doing. Our internship program was built to give you real experience, guided by one of our <br>
                 team members here in Charlotte, NC or Los Angeles, CA who actually works in your area of interest. On top of that, we <br>
                 offer engaging learning sessions directly with our senior leadership where you can ask questions and dig into real <br>
                 projects. Our program was handcrafted by previous interns to create an enjoyable, yet challenging experience.
-            </h2>
+            </h2> -->
+            <p id=text_experienceIsKing>
+              We believe you learn better by doing. Our internship program was built to give you real experience, guided by one of our 
+              team members here in Charlotte, NC or Los Angeles, CA who actually works in your area of interest. On top of that, we 
+              offer engaging learning sessions directly with our senior leadership where you can ask questions and dig into real 
+              projects. Our program was handcrafted by previous interns to create an enjoyable, yet challenging experience.
+            </p>
         </div>
   </div>
 
@@ -294,19 +302,18 @@
 
      <!-- ############################################################################################################################################################################## -->
 
-    <!-- <div id="internsComents"> -->
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+    <div id="internsComents">
+      <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"> -->
+        <!-- <div class="carousel-inner"> -->
+          <!-- <div class="carousel-item active"> -->
                             
                                 <!-- <div id="internsCarousel" class="d-block w-100"> -->
-                                  <img class="d-block w-100" src="..." alt="First slide">
                                   <ul class="nav flex-container">
 
                                     <li class="nav flex-container">
                               
                                       <ul id="ul_internscarousel_00">
-                                            <div id="inner_div_interns">
+                                            <div id="inner_div_interns" class="inner_div_interns_01">
                                                 <li>
                                                     <h3 class="font-sm text-left dbl-ln-height m-b-spacer-xl">
                                                     As a Tiny Horse intern, I had the amazing opportunity to lead an
@@ -339,7 +346,7 @@
                                         </ul>
                 
                                         <ul id="ul_internscarousel_01">
-                                          <div id="inner_div_interns">
+                                          <div id="inner_div_interns" class="inner_div_interns_02">
                                               <li>
                                                   <h3 class="font-sm text-left dbl-ln-height m-b-spacer-xl">
                                                       My summer wouldn’t have been the same without this internship. I feel
@@ -373,7 +380,7 @@
                                       </ul>
                 
                                       <ul id="ul_internscarousel_01">
-                                          <div id="inner_div_interns">
+                                          <div id="inner_div_interns" class="inner_div_interns_03">
                                               <li>
                                                   <h3 class="font-sm text-left dbl-ln-height m-b-spacer-xl">
                                                       Not all internships are created equal. The best internships are the ones
@@ -412,8 +419,8 @@
 
                                 <!-- ############################################################## -->
                             
-                                <div class="carousel-item">
-                                  <img class="d-block w-100" src="..." alt="First slide">
+                                <!-- <div class="carousel-item">
+                
                                   <ul class="nav flex-container">
 
                                     <li class="nav flex-container">
@@ -425,11 +432,11 @@
                                                       Working with Tiny Horse not only catapulted my career in production, but
                                                       it also refined my adaptability skills and nurtured me with an
                                                       innovative company culture. As a production intern, I worked closely
-                                                      <!-- with the production team on social media and web coverage for various
+                                                      with the production team on social media and web coverage for various
                                                       series and films. The close-knit atmosphere in the office meant I was
                                                       able to be in the room when things happened. I observed firsthand how
                                                       important business decisions were made, and I was encouraged to be
-                                                      curious and ask questions. -->
+                                                      curious and ask questions.
                                                   </h3>
 
                                                   <table>
@@ -459,11 +466,11 @@
                                                     <h3 class="font-sm text-left dbl-ln-height m-b-spacer-xl">
                                                         Being an intern at Tiny Horse gave me more opportunities than I had in
                                                         previous internships. I collaborated with team members through
-                                                        <!-- spearheading research and participating in development discussions that
+                                                        spearheading research and participating in development discussions that
                                                         enhanced my understanding of the entertainment industry. The team made
                                                         me feel like I belonged and I always felt like I was able to talk to
                                                         anyone there. It’s definitely a good chance to begin growing as a
-                                                        professional. -->
+                                                        professional.
                                                     </h3>
 
                                                     <table>
@@ -518,28 +525,15 @@
                                                       </th>
                                                     </table>
 
-                                                    <!-- <div class="flex flex-align-center">
-                                                    <div class="intern-photo-wrapper m-r-spacer-md">
-                                                        <img
-                                                            width="80"
-                                                            height="80"
-                                                            src="Martha-Gaters.jpg"
-                                                            class="rounded-circle"
-                                                            alt="Intern Image" />
-                                                    </div>
-                                                    <h6 class="text-left m-t-spacer-none uppercase">
-                                                        Martha Gaters<br /><em>Former Intern</em>
-                                                    </h6>
-                                                    </div> -->
                                                 </li>
                                             </div>
                                         </ul>
                                       </li>
                                     </ul>
 
-                                </div>
+                                </div> -->
 
-                  </div>
+                  <!-- </div>
             
         </div>
     
@@ -552,8 +546,8 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
             </button>
-      </div>
-    <!-- </div> -->
+      </div> -->
+    </div>
 
 
 
