@@ -20,7 +20,7 @@ public class Main {
         whatIsTheOutPut();
 
         System.out.println(("##################################################"));
-        System.out.print("\'toPower\' method returns: " +Arrays.toString(toPower(4, 2)));
+        System.out.print("\'toPower\' method returns: " +Arrays.toString(toPower(6, 3)));
 
 
     }
